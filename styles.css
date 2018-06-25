@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+     background-image:url(gradient.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Indie Flower, cursive;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+#pixelCanvas {
+  background-color: white;
+}
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 15px;
+}
+
+td {
+    width: 15px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#button,
+#resetButton {
+  background-color: black;
+  color: white;
+}
+p {
+  font-weight: bold;
+  font-size: 18px;
+}
