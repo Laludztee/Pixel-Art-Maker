@@ -25,16 +25,16 @@ function makeGrid() {
     canvas.find('tr').append('<td></td>');
     }
 }
-// The color to be shown when the user selects a cell
+// The color to be shown when the user selects a table data
 canvas.on('click', "td", function(){
     var color = colorPicker.val();
         $(this).css("background-color", color);
 });
-// The color to be shown when the user de-selects a cell
+// The color to be shown when the user de-selects a table data
 canvas.on('dblclick', "td", function(){
         $(this).css("background-color", "white");
 });
-// Click the Let's Go button to make the Grid
+// Call the makeGrid function when this button is clicked 
 $('#button').on('click', function (event) {
     event.preventDefault();
     makeGrid();
