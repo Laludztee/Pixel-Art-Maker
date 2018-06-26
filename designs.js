@@ -28,11 +28,11 @@ function makeGrid() {
 // The color to be shown when the user selects a table data
 canvas.on('click', "td", function(){
     var color = colorPicker.val();
-        $(this).css("background-color", color);
+    $(this).css("background-color", color);
 });
 // The color to be shown when the user de-selects a table data
 canvas.on('dblclick', "td", function(){
-        $(this).css("background-color", "white");
+    $(this).css("background-color", "white");
 });
 // Call the makeGrid function when this button is clicked 
 $('#button').on('click', function (event) {
@@ -40,7 +40,7 @@ $('#button').on('click', function (event) {
     makeGrid();
 $('#resetButton').on('click', function (event) {
     event.preventDefault();
-         $('td').css('background-color', 'white');
+    $('td').css('background-color', 'white');
 });
 });
 
