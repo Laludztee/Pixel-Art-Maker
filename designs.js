@@ -2,6 +2,8 @@ $(document).ready(function () {
 // The grid inputs are stored as const variables. This jQuery selector will remain the same throughout the code
 const height = $('#inputHeight');
 const width = $('#inputWidth');
+//The colorPicker is a const variable.It will not change all through this code
+const colorPicker = $('#colorPicker');
 // canvas is a const variable as it remains the same all through this code
 const canvas = $('#pixelCanvas');
 
