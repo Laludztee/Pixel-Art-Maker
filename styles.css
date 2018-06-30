@@ -72,7 +72,6 @@ input[type=number] {
   position: absolute;
   margin-left: 5px;
   margin-top: -7px;
-  visibility: hidden;
 }
 
 .help::before {
