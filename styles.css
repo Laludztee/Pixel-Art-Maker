@@ -61,17 +61,16 @@ input[type=number] {
 .help {
   display: inline-block;
   text-align: center;
-  background-color: black;
-  color: white;
-  border: 3px solid white;
+  background-color: greenyellow;
+  border: 3px solid #abd;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 14px;
-  line-height: 0px;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   cursor: help;
   position: absolute;
-  margin-left: 15px;
+  margin-left: 5px;
   margin-top: -7px;
 }
 
