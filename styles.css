@@ -48,20 +48,48 @@ input[type=number] {
 }
 
 #button,
-#resetButton
-#helpButton {
+#resetButton {
   background-color: black;
   color: white;
-}
-
-#helpButton:hover {
-cursor: pointer;
 }
 
 p
 .sizePicker {
   font-size: 18px;
   font-family: constantia;
+}
+
+.help
+p::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  top: 50%;
+  left: 1.65%;
+  transform: translateY(-405%) rotate(-90deg);
+  transform-origin: -30% 120%;
+}
+
+.help
+p {
+  display: none;
+  text-align: left;
+  background: linear-gradient(greenyellow);
+  padding: 20px;
+  width: 300px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.help-icon::before {
+  content: 'Help?';
+  font-weight: bold;
+  color: #000046;
 }
 
 .help {
@@ -80,3 +108,13 @@ p
   margin-top: -7px;
   visibility: hidden;
 }
+
+.help-icon:hover
+p {
+  display: block;
+  transform:  translatex(12%) translatey(-40%) rotate(0);
+  transform-origin: 100% 100%;
+  -webkit-animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
+}
+
