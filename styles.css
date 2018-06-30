@@ -65,10 +65,10 @@ input[type=number] {
   color: white;
   border: 3px solid white;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   font-size: 16px;
-  line-height: 35px;
+  line-height: 16px;
   cursor: help;
   position: absolute;
   margin-left: 5px;
