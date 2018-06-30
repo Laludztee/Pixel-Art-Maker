@@ -67,11 +67,11 @@ input[type=number] {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 0px;
   cursor: help;
   position: absolute;
-  margin-left: 0px;
+  margin-left: 15px;
   margin-top: -7px;
 }
 
