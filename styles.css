@@ -61,13 +61,14 @@ input[type=number] {
 .help {
   display: inline-block;
   text-align: center;
-  background-color: greenyellow;
-  border: 3px solid #abd;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
+  width: 60px;
+  height: 60px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
   cursor: help;
   position: absolute;
   margin-left: 5px;
@@ -77,14 +78,13 @@ input[type=number] {
 .help::before {
   content: 'Help?';
   font-weight: bold;
-  color: #000046;
 }
 
 .help
 p {
   display: none;
   text-align: left;
-  background: linear-gradient(greenyellow);
+  background-color: white;
   padding: 20px;
   width: 300px;
   border-radius: 3px;
