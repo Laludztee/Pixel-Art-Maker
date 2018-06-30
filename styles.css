@@ -86,7 +86,7 @@ p {
   line-height: 1.4;
 }
 
-.help-icon::before {
+.help::before {
   content: 'Help?';
   font-weight: bold;
   color: #000046;
@@ -109,7 +109,7 @@ p {
   visibility: hidden;
 }
 
-.help-icon:hover
+.help:hover
 p {
   display: block;
   transform:  translatex(12%) translatey(-40%) rotate(0);
@@ -117,4 +117,3 @@ p {
   -webkit-animation: fadeIn 3s ease-in-out;
   animation: fadeIn 3s ease-in-out;
 }
-
