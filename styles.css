@@ -58,17 +58,27 @@ input[type=number] {
   font-family: constantia;
 }
 
-.help
-p::before {
+.help {
+  display: inline-block;
+  text-align: center;
+  background-color: greenyellow;
+  border: 3px solid #abd;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: help;
   position: absolute;
-  content: '';
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  top: 50%;
-  left: 1.65%;
-  transform: translateY(-405%) rotate(-90deg);
-  transform-origin: -30% 120%;
+  margin-left: 5px;
+  margin-top: -7px;
+  visibility: hidden;
+}
+
+.help::before {
+  content: 'Help?';
+  font-weight: bold;
+  color: #000046;
 }
 
 .help
@@ -85,27 +95,16 @@ p {
   line-height: 1.4;
 }
 
-.help::before {
-  content: 'Help?';
-  font-weight: bold;
-  color: #000046;
-}
-
-.help {
-  display: inline-block;
-  text-align: center;
-  background-color: greenyellow;
-  border: 3px solid #abd;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  font-size: 16px;
-  line-height: 26px;
-  cursor: help;
+.help
+p::before {
   position: absolute;
-  margin-left: 5px;
-  margin-top: -7px;
-  visibility: hidden;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 1.65%;
+  transform: translateY(-405%) rotate(-90deg);
+  transform-origin: -30% 120%;
 }
 
 .help:hover
