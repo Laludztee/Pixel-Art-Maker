@@ -58,7 +58,8 @@ input[type=number] {
 cursor: pointer;
 }
 
-p {
+p
+.sizePicker {
   font-size: 18px;
   font-family: constantia;
 }
@@ -78,3 +79,4 @@ p {
   margin-left: 5px;
   margin-top: -7px;
   visibility: hidden;
+}
