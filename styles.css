@@ -64,14 +64,14 @@ input[type=number] {
   background-color: black;
   border: 3px solid white;
   border-radius: 10%;
-  width: 30px;
+  width: 35px;
   height: 30px;
   font-size: 16px;
   line-height: 26px;
   cursor: help;
   position: absolute;
   color: white;
-  left: 10px;
+  left: 50%;
 }
 
 .help::before {
