@@ -62,3 +62,19 @@ p {
   font-size: 18px;
   font-family: constantia;
 }
+
+.help {
+  display: inline-block;
+  text-align: center;
+  background-color: greenyellow;
+  border: 3px solid #abd;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: help;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -7px;
+  visibility: hidden;
