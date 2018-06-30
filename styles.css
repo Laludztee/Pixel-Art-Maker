@@ -70,6 +70,8 @@ input[type=number] {
   line-height: 26px;
   cursor: help;
   position: absolute;
+  color: white;
+  margin-left: 5px;
 }
 
 .help::before {
