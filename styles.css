@@ -65,13 +65,13 @@ input[type=number] {
   color: white;
   border: 3px solid white;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   font-size: 16px;
   line-height: 16px;
   cursor: help;
   position: absolute;
-  margin-left: 5px;
+  margin-left: 0px;
   margin-top: -7px;
 }
 
