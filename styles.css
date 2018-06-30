@@ -32,6 +32,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    border: 5px ridge black;
 }
 
 tr {
@@ -43,13 +44,18 @@ td {
 }
 
 input[type=number] {
-    width: 6em;
+    width: 3em;
 }
 
 #button,
-#resetButton {
+#resetButton
+#helpButton {
   background-color: black;
   color: white;
+}
+
+#helpButton:hover {
+cursor: pointer;
 }
 
 p {
