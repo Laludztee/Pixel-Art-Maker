@@ -71,7 +71,7 @@ input[type=number] {
   cursor: help;
   position: absolute;
   color: white;
-  margin-right: 9px;
+  margin-right: 14px;
 }
 
 .help::before {
